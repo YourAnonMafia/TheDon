@@ -81,7 +81,7 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = ' 
+THEDON_BANNER = { 
                     _____________________________________________
                      ______                   _____             
                        /      /               /    )            
@@ -90,8 +90,8 @@ THEDON_BANNER = '
                    _/______/___/_(___ _____/____/___(___/_/___/_
                                              
                  A layer 7 DOS tool brought to you by the AnonMafia                          
-                              - @YourAnonMafia -'
-                                                     
+                              - @YourAnonMafia -
+                                                     }
                                                 
                                                        
                                                       
