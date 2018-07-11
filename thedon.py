@@ -81,14 +81,8 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = '
+THEDON_BANNER = ' A Layer 7 DOS tool brought to you by the #AnonMafia. Follow us on twitter @YourAnonMafia '
 
- _______ _     _ _______      ______   _____  __   _
-    |    |_____| |______      |     \ |     | | \  |
-    |    |     | |______      |_____/ |_____| |  \_|
-                                                    
-                    @YourAnonMafia
-            '
 
                                                        
                                                       
