@@ -81,16 +81,14 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = ' 
- 
-  88888888888 888                                        
-      888     888                                        
-      888     888                                        
-      888     88888b.   .d88b.                           
-      888     888 "88b d8P  Y8b                          
-      888     888  888 88888888                          
-      888     888  888 Y8b.                              
-      888     888  888  "Y8888                           
+THEDON_BANNER = '  88888888888  888                                        
+                        888     888                                        
+                        888     888                                        
+                        888     88888b.   .d88b.                           
+                        888     888 "88b d8P  Y8b                          
+                        888     888  888 88888888                          
+                        888     888  888 Y8b.                              
+                        888     888  888  "Y8888                           
                                                        
                                                        
                                                        
@@ -109,10 +107,12 @@ THEDON_BANNER = '
 
                           Developer - @DonGh0st
             
-                          Enjoy responsably ;)
+                          Enjoy responsably ;) '
+ 
+
                                                        
                                                        '
-                                                '       
+                                                
 
 USER_AGENT_PARTS = {
     'os': {
