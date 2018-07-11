@@ -79,7 +79,8 @@ class color:
     END = '\033[0m'
     UNDERLINE = '\033[4m'
     LOGGING = '\33[34m'
-
+    CYAN = '\033[36m'
+    
 ####
 # Config
 ####
@@ -590,8 +591,10 @@ def usage():
     print
     print
     print                              THEDON_BANNER
-    print  
-    print  color.HEADER + ' USAGE: python thedon.py <url> [OPTIONS]' + color.END
+    print
+    print  color.CYAN + ' Brought to you by the AnonMafia. Follow us on twitter @YourAnonMafia ' + color.END
+    print
+    print  color.OKBLUE + ' USAGE: python thedon.py <url> [OPTIONS]' + color.END
     print
     print ' OPTIONS:'
     print '\t Flag\t\t\tDescription\t\t\t\t\t\tDefault'
@@ -604,7 +607,7 @@ def usage():
     print '\t -h, --help\t\tShows this help'
     print
     print
-    print color.HEADER + ' Have fun fucking shit up! ' + color.END
+    print color.OKBLUE + ' Have fun fucking shit up! ' + color.END
     print
     print color.NOTICE + '################################################################################' + color.END
 
