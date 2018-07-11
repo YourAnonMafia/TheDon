@@ -81,34 +81,14 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = '  88888888888  888 '                                       
-                        888     888                                        
-                        888     888                                        
-                        888     88888b.   .d88b.                           
-                        888     888 "88b d8P  Y8b                          
-                        888     888  888 88888888                          
-                        888     888  888 Y8b.                              
-                        888     888  888  "Y8888                           
-                                                       
-                                                       
-                                                       
-                          8888888b.                    
-                          888  "Y88b                   
-                          888    888                   
-                          888    888  .d88b.  88888b.  
-                          888    888 d88""88b 888 "88b 
-                          888    888 888  888 888  888 
-                          888  .d88P Y88..88P 888  888 
-                          8888888P"   "Y88P"  888  888 
+THEDON_BANNER = '
 
-                          Layer-7 DOS tool by the #AnonMafia
-
-                          Follow us on twitter @YourAnonMafia
-
-                          Developer - @DonGh0st
-            
-                          Enjoy responsably ;) 
- 
+ _______ _     _ _______      ______   _____  __   _
+    |    |_____| |______      |     \ |     | | \  |
+    |    |     | |______      |_____/ |_____| |  \_|
+                                                    
+                    @YourAnonMafia
+            '
 
                                                        
                                                        '
