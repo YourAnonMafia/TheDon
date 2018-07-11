@@ -112,7 +112,7 @@ THEDON_BANNER = '
                           Enjoy responsably ;)
                                                        
                                                        '
-                                                       
+                                                '       
 
 USER_AGENT_PARTS = {
     'os': {
