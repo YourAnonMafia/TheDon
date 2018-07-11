@@ -98,16 +98,16 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = color.OKGREEN + '''      @@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@    @@@@@@   @@@  @@@
-@@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@@  @@@@@@@@  @@@@ @@@  
-  @@!    @@!  @@@  @@!          @@!  @@@  @@!  @@@  @@!@!@@@  
-  !@!    !@!  @!@  !@!          !@!  @!@  !@!  @!@  !@!!@!@!  
-  @!!    @!@!@!@!  @!!!:!       @!@  !@!  @!@  !@!  @!@ !!@!  
-  !!!    !!!@!!!!  !!!!!:       !@!  !!!  !@!  !!!  !@!  !!!  
-  !!:    !!:  !!!  !!:          !!:  !!!  !!:  !!!  !!:  !!!  
-  :!:    :!:  !:!  :!:          :!:  !:!  :!:  !:!  :!:  !:!  
-   ::    ::   :::   :: ::::      :::: ::  ::::: ::   ::   ::
-   :      :   : :  : :: ::      :: :  :    : :  :   ::    :   
+THEDON_BANNER = color.RED + '''          @@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@    @@@@@@   @@@  @@@
+      @@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@@  @@@@@@@@  @@@@ @@@  
+        @@!    @@!  @@@  @@!          @@!  @@@  @@!  @@@  @@!@!@@@  
+        !@!    !@!  @!@  !@!          !@!  @!@  !@!  @!@  !@!!@!@!  
+        @!!    @!@!@!@!  @!!!:!       @!@  !@!  @!@  !@!  @!@ !!@!  
+        !!!    !!!@!!!!  !!!!!:       !@!  !!!  !@!  !!!  !@!  !!!  
+        !!:    !!:  !!!  !!:          !!:  !!!  !!:  !!!  !!:  !!!  
+        :!:    :!:  !:!  :!:          :!:  !:!  :!:  !:!  :!:  !:!  
+         ::    ::   :::   :: ::::      :::: ::  ::::: ::   ::   ::
+          :      :   : :  : :: ::      :: :  :    : :  :   ::    :   
                                                              
                    ''' + color.END
                                   
@@ -586,12 +586,12 @@ class Striker(Process):
 
 def usage():
     print
-    print color.IMPORTANT + '###############################################################################' + color.END
+    print color.NOTICE + '###############################################################################' + color.END
     print
     print
     print                              THEDON_BANNER
     print  
-    print  color.NOTICE + ' USAGE: python thedon.py <url> [OPTIONS]' + color.END
+    print  color.HEADER + ' USAGE: python thedon.py <url> [OPTIONS]' + color.END
     print
     print ' OPTIONS:'
     print '\t Flag\t\t\tDescription\t\t\t\t\t\tDefault'
@@ -604,9 +604,9 @@ def usage():
     print '\t -h, --help\t\tShows this help'
     print
     print
-    print color.RED + ' Have fun fucking shit up! ' + color.END
+    print color.HEADER + ' Have fun fucking shit up! ' + color.END
     print
-    print color.IMPORTANT + '################################################################################' + color.END
+    print color.NOTICE + '################################################################################' + color.END
 
     
 def error(msg):
