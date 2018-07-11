@@ -81,17 +81,8 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = { 
-                   
-  ________            ____            
- /_  __/ /_  ___     / __ \____  ____ 
-  / / / __ \/ _ \   / / / / __ \/ __ \
- / / / / / /  __/  / /_/ / /_/ / / / /
-/_/ /_/ /_/\___/  /_____/\____/_/ /_/ 
-                                                                  
- A layer 7 DOS tool brought to you by the AnonMafia                          
-           - @YourAnonMafia -
-                                                     }
+THEDON_BANNER = ' A layer 7 DOS tool brought to you by the AnonMafia. @YourAnonMafia '                          
+
                                                 
                                                        
                                                       
@@ -566,11 +557,20 @@ class Striker(Process):
 
 def usage():
     print
-    print '############################################################################################################'
+    print '###############################################################################'
     print
     print THEDON_BANNER
     print 
     print ' USAGE: ./thedon.py <url> [OPTIONS]'
+    print
+    print
+    print  '  ________            ____            '
+    print  ' /_  __/ /_  ___     / __ \____  ____ '
+    print  '  / / / __ \/ _ \   / / / / __ \/ __ \'
+    print  ' / / / / / /  __/  / /_/ / /_/ / / / /'
+    print  '/_/ /_/ /_/\___/  /_____/\____/_/ /_/ '
+    print
+    print
     print
     print ' OPTIONS:'
     print '\t Flag\t\t\tDescription\t\t\t\t\t\tDefault'
@@ -582,7 +582,7 @@ def usage():
     print '\t -d, --debug\t\tEnable Debug Mode [more verbose output]\t\t\t(default: False)'
     print '\t -h, --help\t\tShows this help'
     print
-    print '############################################################################################################'
+    print '##################################################################################'
 
     
 def error(msg):
