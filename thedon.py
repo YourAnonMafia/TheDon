@@ -62,6 +62,23 @@ else:
     # Python 3.x
     import http.client
     HTTPCLIENT = http.client
+    
+'''
+Common Functions
+'''
+
+
+class color:
+    HEADER = '\033[95m'
+    IMPORTANT = '\33[35m'
+    NOTICE = '\033[33m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    RED = '\033[91m'
+    END = '\033[0m'
+    UNDERLINE = '\033[4m'
+    LOGGING = '\33[34m'
 
 ####
 # Config
@@ -81,7 +98,19 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = ' Brought to you by the #AnonMafia. Follow us on twitter @YourAnonMafia '                          
+THEDON_BANNER = color.RED + '''      @@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@    @@@@@@   @@@  @@@
+@@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@@  @@@@@@@@  @@@@ @@@  
+  @@!    @@!  @@@  @@!          @@!  @@@  @@!  @@@  @@!@!@@@  
+  !@!    !@!  @!@  !@!          !@!  @!@  !@!  @!@  !@!!@!@!  
+  @!!    @!@!@!@!  @!!!:!       @!@  !@!  @!@  !@!  @!@ !!@!  
+  !!!    !!!@!!!!  !!!!!:       !@!  !!!  !@!  !!!  !@!  !!!  
+  !!:    !!:  !!!  !!:          !!:  !!!  !!:  !!!  !!:  !!!  
+  :!:    :!:  !:!  :!:          :!:  !:!  :!:  !:!  :!:  !:!  
+   ::    ::   :::   :: ::::      :::: ::  ::::: ::   ::   ::  
+   :      :   : :  : :: ::      :: :  :    : :  :   ::    :   
+                                                             '''
+              
+                                  
 
                                                 
                                                        
