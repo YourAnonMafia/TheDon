@@ -81,7 +81,7 @@ JOIN_TIMEOUT=1.0
 DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
-THEDON_BANNER = '  88888888888  888                                        
+THEDON_BANNER = '  88888888888  888 '                                       
                         888     888                                        
                         888     888                                        
                         888     88888b.   .d88b.                           
@@ -107,7 +107,7 @@ THEDON_BANNER = '  88888888888  888
 
                           Developer - @DonGh0st
             
-                          Enjoy responsably ;) '
+                          Enjoy responsably ;) 
  
 
                                                        
