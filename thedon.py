@@ -99,15 +99,15 @@ DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
 THEDON_BANNER = color.OKGREEN + '''      @@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@    @@@@@@   @@@  @@@
-                                         @@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@@  @@@@@@@@  @@@@ @@@  
-                                           @@!    @@!  @@@  @@!          @@!  @@@  @@!  @@@  @@!@!@@@  
-                                           !@!    !@!  @!@  !@!          !@!  @!@  !@!  @!@  !@!!@!@!  
-                                           @!!    @!@!@!@!  @!!!:!       @!@  !@!  @!@  !@!  @!@ !!@!  
-                                           !!!    !!!@!!!!  !!!!!:       !@!  !!!  !@!  !!!  !@!  !!!  
-                                           !!:    !!:  !!!  !!:          !!:  !!!  !!:  !!!  !!:  !!!  
-                                           :!:    :!:  !:!  :!:          :!:  !:!  :!:  !:!  :!:  !:!  
-                                            ::    ::   :::   :: ::::      :::: ::  ::::: ::   ::   ::  
-                                             :      :   : :  : :: ::      :: :  :    : :  :   ::    :   
+@@@@@@@  @@@  @@@  @@@@@@@@     @@@@@@@@  @@@@@@@@  @@@@ @@@  
+  @@!    @@!  @@@  @@!          @@!  @@@  @@!  @@@  @@!@!@@@  
+  !@!    !@!  @!@  !@!          !@!  @!@  !@!  @!@  !@!!@!@!  
+  @!!    @!@!@!@!  @!!!:!       @!@  !@!  @!@  !@!  @!@ !!@!  
+  !!!    !!!@!!!!  !!!!!:       !@!  !!!  !@!  !!!  !@!  !!!  
+  !!:    !!:  !!!  !!:          !!:  !!!  !!:  !!!  !!:  !!!  
+  :!:    :!:  !:!  :!:          :!:  !:!  :!:  !:!  :!:  !:!  
+   ::    ::   :::   :: ::::      :::: ::  ::::: ::   ::   ::
+   :      :   : :  : :: ::      :: :  :    : :  :   ::    :   
                                                              
                    ''' + color.END
                                   
@@ -586,7 +586,7 @@ class Striker(Process):
 
 def usage():
     print
-    print color.OKBLUE + '###############################################################################' + color.END
+    print color.IMPORTANT + '###############################################################################' + color.END
     print
     print
     print                              THEDON_BANNER
@@ -595,7 +595,7 @@ def usage():
     print
     print ' OPTIONS:'
     print '\t Flag\t\t\tDescription\t\t\t\t\t\tDefault'
-    print '\t -u, --useragents\tFile with user-agents to use\t\t\t\t(default: randomly generated)'
+    print '\t -u, --useragents\tFile with user-agents to use\t\t\t\t(default: random)'
     print '\t -w, --workers\t\tNumber of concurrent workers\t\t\t\t(default: {0})'.format(DEFAULT_WORKERS)
     print '\t -s, --sockets\t\tNumber of concurrent sockets\t\t\t\t(default: {0})'.format(DEFAULT_SOCKETS)
     print '\t -m, --method\t\tHTTP Method to use \'get\' or \'post\'  or \'random\'\t\t(default: get)'
@@ -606,7 +606,7 @@ def usage():
     print
     print color.RED + ' Have fun fucking shit up! ' + color.END
     print
-    print color.OKBLUE + '################################################################################' + color.END
+    print color.IMPORTANT + '################################################################################' + color.END
 
     
 def error(msg):
