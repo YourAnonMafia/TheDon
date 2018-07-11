@@ -82,15 +82,15 @@ DEFAULT_WORKERS=10
 DEFAULT_SOCKETS=500
 
 THEDON_BANNER = { 
-                    _____________________________________________
-                     ______                   _____             
-                       /      /               /    )            
-                   ---/------/__----__-------/----/----__----__-
-                     /      /   ) /___)     /    /   /   ) /   )
-                   _/______/___/_(___ _____/____/___(___/_/___/_
-                                             
-                 A layer 7 DOS tool brought to you by the AnonMafia                          
-                              - @YourAnonMafia -
+                   
+  ________            ____            
+ /_  __/ /_  ___     / __ \____  ____ 
+  / / / __ \/ _ \   / / / / __ \/ __ \
+ / / / / / /  __/  / /_/ / /_/ / / / /
+/_/ /_/ /_/\___/  /_____/\____/_/ /_/ 
+                                                                  
+ A layer 7 DOS tool brought to you by the AnonMafia                          
+           - @YourAnonMafia -
                                                      }
                                                 
                                                        
