@@ -3,40 +3,19 @@
 """
 $Id: $
 
-                      ,                                               ,
-                     @"===,                                  ,_____cctI
-                     "?AAAAAAAAAAAAAAAA,,,,,,,,,,,,,,,,,,,,,;LLLLLLLLLL
-           ~",,,      1""""""""""""###OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-            '"EEEEE, !'"***"~~~~~~"OOOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-               ,EEEEE)>"'''???????"WWW!MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-                "E.,)+="WWW~~~~~~#"OOO1OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-             ,~:#")LLL!"+++???????"$$$1==========##/
-              &LLLLLLLLL;;;;;;;;;;;;,,,/
-              1#LLLLLLLLLLLLLLLLLLLLLL!    88888888888 888                                        
-            ,!###LLLLLL"'EEEE,'"LLLLL!         888     888                                        
-            !######LLL"  "EEE"  "LLLL"         888     888                                        
-           !#########L!   "EEJ. "LL!           888     888                                      
-          !##########1      "JJ*,l"            888     88888b.   .d88b.         
-         !############"!       ,l"             888     888 "88b d8P  Y8b         
-         1##########"  1"~~,~~"                888     888  888 88888888       
-        !##########"                           888     888  888 Y8b.              
-       !###########!                           888     888  888  "Y8888              
-       !###########1
-      !############!    8888888b.                    
-      1#############    888  "Y88b                   
-     !"#############"   888    888                   
-     !##############!   888    888  .d88b.  88888b.  
-     1##########"'      888    888 d88""88b 888 "88b                        
-     1#####"'           888    888 888  888 888  888 
-     """""              888  .d88P Y88..88P 888  888
-                        8888888P"   "Y88P"  888  888 
+ d888888b db   db d88888b      d8888b.  .d88b.  d8b   db 
+`~~88~~' 88   88 88'          88  `8D .8P  Y8. 888o  88 
+   88    88ooo88 88ooooo      88   88 88    88 88V8o 88 
+   88    88~~~88 88~~~~~      88   88 88    88 88 V8o88 
+   88    88   88 88.          88  .8D `8b  d8' 88  V888 
+   YP    YP   YP Y88888P      Y8888D'  `Y88P'  VP   V8P 
+                                                        
+                                                        
                                                        
-                                                       
+  - @YourAnonMafia -                                                     
                          
                                                        
-                                                                                                                                                                                 
-
-
+                                                                                                                                                                               
 This tool is a dos tool that is meant to put heavy load on HTTP servers
 in order to bring them to their knees by exhausting the resource pool.
 
