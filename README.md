@@ -8,6 +8,12 @@ TheDon is an easy to use DOS tool for launching layer-7 denial-of-service attack
 
 TheDon DOES NOT COME WITH A VPN OR PROXY! YOUR IP WILL BE VISABLE IF YOU USE THEDON WITHOUT A VPN!
 
+# Requirements
+
+- Root user (i.e. root@kali, root@localhost, etc)
+
+- A Linux distro (including ParrotSec OS)
+
 # Installation 
 
 ``git clone https://github.com/YourAnonMafia/TheDon``
