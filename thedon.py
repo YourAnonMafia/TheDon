@@ -599,21 +599,9 @@ def usage():
     print color.OKBLUE + ' Have fun fucking shit up! ' + color.END
     print
     print
-    print
-    print '            .-.____________________.-. '
-    print '     ___ _.' .-----.    _____________|======+----------------+ '
-    print '    /_._/   (      |   /_____________|      |      THE       | '
-    print '      /      `  _ ____/                     |    AnonMafia   | '
-    print '     |_      .\( \\                         |________________| '
-    print '    .'  `-._/__`_//  '
-    print '   .'       |""""'  '
-    print '  /        / '
-    print ' /        | ' 
-    print ' |        ' ' 
-    print ' |         \ ' 
-    print ' `-._____.-' ' 
-    print                    
     print color.NOTICE + '################################################################################' + color.END
+    print
+    print
 
     
 def error(msg):
